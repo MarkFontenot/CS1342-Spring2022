@@ -64,6 +64,7 @@ In order to run C++ programs on your windows machine there are several things we
   <image src="./images/picture1.png" width="500px" />
 </div>
 2. There are 2 commands that you need to run. Copy and paste the commands below and press "enter" one at a time and wait for them to complete: 
+
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
@@ -123,7 +124,9 @@ sudo apt-get install valgrind
   <image src="./images/picture6.png" width="700px" />
 </div>
 
-10. Now hit Apply and then Okay. Your window should look like this.
+10. Now hit Apply and then Okay. Next, click the up arrow so WSL is on top of the Toolchain list.
+
+Your window should look like this.
 
 <div style="text-align: center;">
   <image src="./images/picture7.png" width="500px" />
@@ -191,7 +194,19 @@ Process finished with exit code 0
 
 If you do - GREAT! You have just run your first C++ Program :). 
 
-7. To receive credit for this assignment follow the instructions in the Submission step below.
+7. If you receive an error that looks like the below...
+
+<div style="text-align: center;">
+  <image src="./images/picture9.png" width="600px" />
+</div>
+
+You need to update your CMakeLists.txt file so that you are using the correct cmake version. Then apply the cmake changes and refresh the build. 
+
+<div style="text-align: center;">
+  <image src="./images/picture10.png" width="500px" />
+</div>
+
+8. To receive credit for this assignment follow the instructions in the Submission step below.
 
 ## **Submission**
 When you are completed with your program, create a zip of your project files by finding your program folder named "Lab0" either in Finder (for Mac) or in the File Explorer (Windows). Compress the folder and name it `LastName-Program0.zip`, replacing "LastName" with your own. Then turn in your zip file to Canvas. 
