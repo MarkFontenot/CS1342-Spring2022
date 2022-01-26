@@ -25,6 +25,11 @@ int main() {
     // variable initialization
     value = 100;
 
+    // modifiers
+    long long int x = 10;
+    long int y = 123423455828;
+    cout << y << endl;
+
 //    char c = 't';
 
     // variable declarations and initializations
