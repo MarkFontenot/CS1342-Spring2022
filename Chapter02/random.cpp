@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
   srand(time(NULL));
-  int random{rand() % 100};
+  int random{(rand() % 10) + 1};
 
   cout << "Random Number: " << random << endl;
 

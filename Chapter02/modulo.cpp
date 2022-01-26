@@ -10,7 +10,7 @@ int main() {
   int result = x / y;
   int remainder = x % y;
 
-  if (x % 2 == 0) cout << "Result: " << result << endl;
+  cout << "Result: " << result << endl;
   cout << "Remainder: " << remainder << endl;
 
   return 0;
