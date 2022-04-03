@@ -5,7 +5,7 @@ using namespace std;
 void foo(int *a, int& b) {
     b = 5;
     a[0] = b + 1;
-    a[1] = *(a + 1) + 1;
+    a[1] = *a + 1;
     a = new int[3];
 
     // Draw Diagram Here
