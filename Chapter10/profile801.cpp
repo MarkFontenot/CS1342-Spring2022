@@ -57,7 +57,7 @@ bool Profile::operator==(Profile p) {
 }
 
 void Profile::display() const {
-  cout << id << endl;
+  cout << this->id << endl;
   cout << firstName << endl;
   cout << lastName << endl;
 }

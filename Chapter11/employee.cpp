@@ -52,7 +52,7 @@ Employee &Employee::operator=(const Employee &copy) {
   return *this;
 }
 
-void print(Employee employee) {
+void print(Employee employee) { // copy constructor
   std::cout << "e1 has an id of " << employee.getId() << std::endl;
 }
 
